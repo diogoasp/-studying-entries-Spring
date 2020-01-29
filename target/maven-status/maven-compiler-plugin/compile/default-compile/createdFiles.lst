@@ -1,0 +1,6 @@
+bsi/progWeb/view01/repository/ClienteRepository.class
+bsi/progWeb/view01/controller/ClienteController.class
+bsi/progWeb/view01/models/Telefone.class
+bsi/progWeb/view01/models/Cliente.class
+bsi/progWeb/view01/models/Endereco.class
+bsi/progWeb/view01/View01Application.class
