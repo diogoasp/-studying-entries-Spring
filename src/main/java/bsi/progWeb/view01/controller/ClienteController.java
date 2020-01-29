@@ -5,7 +5,6 @@ import bsi.progWeb.view01.models.Telefone;
 import bsi.progWeb.view01.repository.ClienteRepository;
 import java.nio.file.Paths;
 import java.util.Calendar;
-import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.validation.Valid;
@@ -93,5 +92,6 @@ public class ClienteController {
         }
         return "listar";
     }
+    
     
 }

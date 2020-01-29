@@ -1,7 +1,8 @@
-/home/ryzen/NetBeansProjects/progWebView01/src/main/java/bsi/progWeb/view01/controller/FilesController.java
-/home/ryzen/NetBeansProjects/progWebView01/src/main/java/bsi/progWeb/view01/models/Telefone.java
-/home/ryzen/NetBeansProjects/progWebView01/src/main/java/bsi/progWeb/view01/repository/ClienteRepository.java
-/home/ryzen/NetBeansProjects/progWebView01/src/main/java/bsi/progWeb/view01/models/Endereco.java
-/home/ryzen/NetBeansProjects/progWebView01/src/main/java/bsi/progWeb/view01/controller/ClienteController.java
-/home/ryzen/NetBeansProjects/progWebView01/src/main/java/bsi/progWeb/view01/models/Cliente.java
-/home/ryzen/NetBeansProjects/progWebView01/src/main/java/bsi/progWeb/view01/View01Application.java
+/home/dd/NetBeansProjects/-studying-entries-Spring-master/src/main/java/bsi/progWeb/view01/models/Endereco.java
+/home/dd/NetBeansProjects/-studying-entries-Spring-master/src/main/java/bsi/progWeb/view01/controller/FilesController.java
+/home/dd/NetBeansProjects/-studying-entries-Spring-master/src/main/java/bsi/progWeb/view01/models/WebSecurity.java
+/home/dd/NetBeansProjects/-studying-entries-Spring-master/src/main/java/bsi/progWeb/view01/models/Cliente.java
+/home/dd/NetBeansProjects/-studying-entries-Spring-master/src/main/java/bsi/progWeb/view01/repository/ClienteRepository.java
+/home/dd/NetBeansProjects/-studying-entries-Spring-master/src/main/java/bsi/progWeb/view01/models/Telefone.java
+/home/dd/NetBeansProjects/-studying-entries-Spring-master/src/main/java/bsi/progWeb/view01/View01Application.java
+/home/dd/NetBeansProjects/-studying-entries-Spring-master/src/main/java/bsi/progWeb/view01/controller/ClienteController.java

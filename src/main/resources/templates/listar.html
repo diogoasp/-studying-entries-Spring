@@ -4,7 +4,7 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
       layout:decorator="MenuSuperior">
     <head>
-        <title>Listar Clientes</title>
+        <title>Login</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -16,42 +16,14 @@
         <section layout:fragment="conteudo">
             <div class="panel panel-default" style="margin: 10px">
                 <div class="panel-heading">
-                    <h1 class="panel-title">Listar</h1>
+                    <h1 class="panel-title">Login</h1>
                 </div>
                 <div class="panel-body">
-                    <p><a class="btn btn-primary" th:href="@{/clientes/cadastrar}">Cadastrar</a></p>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Data de Nascimento</th>
-                                <th>Foto</th>
-                                <th>Rua</th>
-                                <th>Número</th>
-                                <th>Telefone(s)</th>
-                                <th colspan="2">Ações</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr th:each="cliente : ${lista}">
-                                <td th:text="${cliente.id}" hidden="true"></td>
-                                <td th:text="${cliente.nome}"></td>
-                                <td th:text="${cliente.dataString}"></td>
-                                <td><img th:src="${cliente.foto}" height="100" width="100"/></td>
-                                <td th:text="${cliente.endereco.rua}"></td>
-                                <td th:text="${cliente.endereco.numero}"></td>
-                                <td>
-                                    <table>
-                                        <tr th:each="tel : ${cliente.telefones}">
-                                            <td th:text="${tel.numero}"></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                                <td> <a th:href="@{/clientes/alterar/} + ${cliente.id}" class="glyphicon glyphicon-pencil"></a> </td>
-                                <td> <a th:href="@{/clientes/excluir/} + ${cliente.id}" class="glyphicon glyphicon-trash"> </a> </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <form action="/login" method="post">
+                        <label>Usuário : <input type="text" name="username"/></label>
+                        <label>Senha : <input type="password" name="password"/> </label>
+                        <button type="submit" class="btn btn-secundary">Login</button>
+                    </form>
                 </div>
             </div>
         </section>
